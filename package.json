@@ -1,0 +1,16 @@
+{
+  "name": "vless-vercel",
+  "version": "1.0.0",
+  "description": "VLESS on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
